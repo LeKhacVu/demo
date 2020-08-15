@@ -1,0 +1,25 @@
+/* BACK TO TOP */
+.backToTop {
+    position: fixed;
+    right: 45px;
+    bottom: 40px;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: background-color .2s ease;
+    .fa.fa-angle-up{
+        font-size: $fs-3;
+        color: $color-white-0;
+        border-radius: 21.5px;
+        width: 43px;
+        height: 43px;
+        line-height: 43px;
+        text-align: center;
+        background-color: rgba(0,0,0,0.6);
+    }
+}
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
